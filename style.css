@@ -148,7 +148,10 @@ p{
     margin: 0 auto;
     padding: 100px 0;  
 }
-
+#services .service-top {
+    width: 500px;
+    max-width: 0 auto;
+}
 #services .service-bottom {
     display: flex;
     align-items: center;
@@ -516,4 +519,11 @@ p{
         padding-left: 20px;
     }
 
+}
+
+@media only screen and (min-width: 1200px) {
+    #services .service-bottom .service-item {
+        flex-basis: 22%;
+        margin: 1.5%;
+    }
 }
